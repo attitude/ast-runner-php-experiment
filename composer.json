@@ -1,0 +1,8 @@
+{
+    "require": {
+        "mck89/peast": "dev-master"
+    },
+    "require-dev": {
+        "nette/tester": "^2.4"
+    }
+}
