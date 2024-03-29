@@ -15,7 +15,7 @@ import { NestedCodeLines } from './Types.js'
 const filesPattern = '**/*.{ts,tsx}'
 
 program
-  .name('phpx')
+  .name('ast-runner')
   .description('CLI too to write Typescript to AST')
   .version('0.1.0')
 
