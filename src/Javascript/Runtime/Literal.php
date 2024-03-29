@@ -182,9 +182,8 @@ class StringLiteral extends Literal {
 }
 
 class NumberLiteral extends Literal {
-  // TODO: $significand: '-' | '+'
   protected function __construct(int|float $value = null) {
-    $this->value = $value;
+    $this->value = $value !== null ? (float) $value : $value;
     $this->prototype = Scope::Global()->Number->prototype;
   }
 }
